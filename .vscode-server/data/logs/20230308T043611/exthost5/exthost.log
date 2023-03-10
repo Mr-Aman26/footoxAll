@@ -1,0 +1,360 @@
+2023-03-08 04:46:17.988 [info] Extension host with pid 52972 started
+2023-03-08 04:46:17.992 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/681d555667375890690223c293ce9803/vscode.lock'
+2023-03-08 04:46:17.998 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/681d555667375890690223c293ce9803/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-03-08 04:46:18.005 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/681d555667375890690223c293ce9803/vscode.lock': The lock does not look stale, elapsed: 54 ms, giving up.
+2023-03-08 04:46:18.010 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/681d555667375890690223c293ce9803-1/vscode.lock': Lock acquired.
+2023-03-08 04:46:18.565 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-08 04:46:18.567 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascriptreact'
+2023-03-08 04:46:18.568 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-08 04:46:19.388 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-08 04:46:19.389 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-08 04:46:20.190 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-08 04:46:20.191 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-08 04:46:20.192 [info] Eager extensions activated
+2023-03-08 04:46:21.675 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7641
+2023-03-08 04:49:21.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7649
+2023-03-08 04:52:21.422 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7651
+2023-03-08 04:55:26.485 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7653
+2023-03-08 04:58:41.689 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7658
+2023-03-08 05:01:41.974 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7663
+2023-03-08 05:04:42.281 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7666
+2023-03-08 05:07:42.583 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7667
+2023-03-08 05:10:44.815 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7672
+2023-03-08 05:17:25.500 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7674
+2023-03-08 05:20:25.864 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7676
+2023-03-08 05:25:05.014 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7676
+2023-03-08 05:28:05.367 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7680
+2023-03-08 05:32:46.239 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7683
+2023-03-08 05:35:46.537 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7684
+2023-03-08 05:38:46.983 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7688
+2023-03-08 05:41:47.264 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7690
+2023-03-08 05:44:47.596 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7693
+2023-03-08 05:47:47.870 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7698
+2023-03-08 05:51:40.214 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7700
+2023-03-08 05:53:07.681 [error] [vscode.typescript-language-features] provider FAILED
+2023-03-08 05:53:07.682 [error] Error: <semantic> TypeScript Server Error (4.9.5)
+Debug Failure. Did not expect JsxClosingFragment to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxClosingFragment to have an Identifier in its trivia
+    at addSyntheticNodes (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:167917:30)
+    at createChildren (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:167906:9)
+    at NodeObject.getChildren (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:167848:56)
+    at findRightmostToken (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130610:26)
+    at findRightmostToken (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130615:29)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130585:47)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at findPrecedingToken (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130548:22)
+    at Object.findTokenOnLeftOfPosition (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130526:16)
+    at getInfo (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:163453:35)
+    at Object.getRefactorActionsToConvertToOptionalChain [as getAvailableActions] (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:163408:28)
+    at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:153629:30
+    at getIterator (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:578:23)
+    at Object.next (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:573:35)
+    at Object.arrayFrom (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:1335:88)
+    at Object.getApplicableRefactors (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:153625:23)
+    at Object.getApplicableRefactors (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:169936:32)
+    at IpcIOSession.Session.getApplicableRefactors (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:181645:53)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:180118:61)
+    at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182034:96
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182025:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182034:41)
+    at IpcIOSession.Session.onMessage (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182062:35)
+    at process.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:186218:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1499361)
+	at h.w (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1494548)
+	at h.u (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1493613)
+	at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1493241)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-03-08 05:55:02.064 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7705
+2023-03-08 05:55:21.928 [error] [vscode.typescript-language-features] provider FAILED
+2023-03-08 05:55:21.928 [error] Error: <semantic> TypeScript Server Error (4.9.5)
+Debug Failure. Did not expect JsxClosingFragment to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxClosingFragment to have an Identifier in its trivia
+    at addSyntheticNodes (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:167917:30)
+    at createChildren (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:167906:9)
+    at NodeObject.getChildren (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:167848:56)
+    at findRightmostToken (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130610:26)
+    at findRightmostToken (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130615:29)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130585:47)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at find (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130589:32)
+    at findPrecedingToken (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130548:22)
+    at Object.findTokenOnLeftOfPosition (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130526:16)
+    at getInfo (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:163453:35)
+    at Object.getRefactorActionsToConvertToOptionalChain [as getAvailableActions] (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:163408:28)
+    at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:153629:30
+    at getIterator (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:578:23)
+    at Object.next (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:573:35)
+    at Object.arrayFrom (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:1335:88)
+    at Object.getApplicableRefactors (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:153625:23)
+    at Object.getApplicableRefactors (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:169936:32)
+    at IpcIOSession.Session.getApplicableRefactors (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:181645:53)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:180118:61)
+    at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182034:96
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182025:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182034:41)
+    at IpcIOSession.Session.onMessage (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182062:35)
+    at process.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:186218:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1499361)
+	at h.w (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1494548)
+	at h.u (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1493613)
+	at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1493241)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-03-08 05:57:56.587 [error] [vscode.typescript-language-features] provider FAILED
+2023-03-08 05:57:56.587 [error] Error: <semantic> TypeScript Server Error (4.9.5)
+Debug Failure. Did not expect JsxClosingFragment to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxClosingFragment to have an Identifier in its trivia
+    at addSyntheticNodes (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:167917:30)
+    at createChildren (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:167906:9)
+    at NodeObject.getChildren (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:167848:56)
+    at _loop_1 (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130409:36)
+    at getTokenAtPositionWorker (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130466:27)
+    at Object.getTokenAtPosition (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:130400:16)
+    at getInfo (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:162963:28)
+    at Object.getRefactorActionsToConvertBetweenNamedAndDefaultExports [as getAvailableActions] (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:162934:28)
+    at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:153629:30
+    at getIterator (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:578:23)
+    at Object.flatMapIterator (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:561:27)
+    at Object.getApplicableRefactors (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:153625:36)
+    at Object.getApplicableRefactors (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:169936:32)
+    at IpcIOSession.Session.getApplicableRefactors (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:181645:53)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:180118:61)
+    at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182034:96
+    at IpcIOSession.Session.executeWithRequestId (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182025:28)
+    at IpcIOSession.Session.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182034:41)
+    at IpcIOSession.Session.onMessage (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:182062:35)
+    at process.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/node_modules/typescript/lib/tsserver.js:186218:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1499361)
+	at h.w (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1494548)
+	at h.u (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1493613)
+	at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/typescript-language-features/dist/extension.js:2:1493241)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-03-08 05:58:15.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7712
+2023-03-08 06:01:15.803 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7715
+2023-03-08 09:27:01.352 [info] Extension host terminating: renderer disconnected for too long (1)
+2023-03-08 09:27:01.354 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/681d555667375890690223c293ce9803-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-03-08 09:27:01.400 [error] Canceled: Canceled
+	at new u (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2070210)
+	at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2074277
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2074263)
+	at C.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at M.a (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:122:14319)
+	at M.h (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:66:46705)
+	at listOnTimeout (node:internal/timers:559:17)
+	at processTimers (node:internal/timers:502:7) setContext undefined
+2023-03-08 09:27:01.400 [error] Canceled: Canceled
+	at new u (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2070210)
+	at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2074277
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2074263)
+	at C.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at M.a (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:122:14319)
+	at M.h (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:66:46705)
+	at listOnTimeout (node:internal/timers:559:17)
+	at processTimers (node:internal/timers:502:7) setContext undefined
+2023-03-08 09:27:01.401 [error] Canceled: Canceled
+	at new u (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2070210)
+	at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2074277
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2074263)
+	at C.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at M.a (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:122:14319)
+	at M.h (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:66:46705)
+	at listOnTimeout (node:internal/timers:559:17)
+	at processTimers (node:internal/timers:502:7) setContext undefined
+2023-03-08 09:27:01.401 [error] Canceled: Canceled
+	at new u (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2070210)
+	at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2074277
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2074263)
+	at C.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at M.a (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:122:14319)
+	at M.h (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:66:46705)
+	at listOnTimeout (node:internal/timers:559:17)
+	at processTimers (node:internal/timers:502:7) setContext undefined
+2023-03-08 09:27:01.402 [error] Canceled: Canceled
+	at new u (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2070210)
+	at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2074277
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2074263)
+	at C.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at M.a (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:122:14319)
+	at M.h (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/workbench/api/node/extensionHostProcess.js:66:46705)
+	at listOnTimeout (node:internal/timers:559:17)
+	at processTimers (node:internal/timers:502:7) setContext undefined
+2023-03-08 09:27:01.402 [info] Extension host with pid 52972 exiting with code 0

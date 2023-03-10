@@ -1,0 +1,147 @@
+2023-03-10T06:00:58: PM2 log: ===============================================================================
+2023-03-10T06:00:58: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-03-10T06:00:58: PM2 log: Time                 : Fri Mar 10 2023 06:00:58 GMT+0000 (Coordinated Universal Time)
+2023-03-10T06:00:58: PM2 log: PM2 version          : 5.2.2
+2023-03-10T06:00:58: PM2 log: Node.js version      : 18.14.2
+2023-03-10T06:00:58: PM2 log: Current arch         : x64
+2023-03-10T06:00:58: PM2 log: PM2 home             : /home/ubuntu/.pm2
+2023-03-10T06:00:58: PM2 log: PM2 PID file         : /home/ubuntu/.pm2/pm2.pid
+2023-03-10T06:00:58: PM2 log: RPC socket file      : /home/ubuntu/.pm2/rpc.sock
+2023-03-10T06:00:58: PM2 log: BUS socket file      : /home/ubuntu/.pm2/pub.sock
+2023-03-10T06:00:58: PM2 log: Application log path : /home/ubuntu/.pm2/logs
+2023-03-10T06:00:58: PM2 log: Worker Interval      : 30000
+2023-03-10T06:00:58: PM2 log: Process dump file    : /home/ubuntu/.pm2/dump.pm2
+2023-03-10T06:00:58: PM2 log: Concurrent actions   : 2
+2023-03-10T06:00:58: PM2 log: SIGTERM timeout      : 1600
+2023-03-10T06:00:58: PM2 log: ===============================================================================
+2023-03-10T06:01:10: PM2 log: App [static-page-server-3001:0] starting in -fork mode-
+2023-03-10T06:01:10: PM2 log: App [static-page-server-3001:0] online
+2023-03-10T06:17:54: PM2 log: App [index:1] starting in -fork mode-
+2023-03-10T06:17:54: PM2 log: App [index:1] online
+2023-03-10T06:21:13: PM2 log: Stopping app:index id:1
+2023-03-10T06:21:13: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2023-03-10T06:21:13: PM2 log: pid=3454 msg=process killed
+2023-03-10T06:21:13: PM2 log: App [index:1] starting in -fork mode-
+2023-03-10T06:21:13: PM2 log: App [index:1] online
+2023-03-10T06:24:46: PM2 log: App [static-page-server-3000:2] starting in -fork mode-
+2023-03-10T06:24:46: PM2 log: App [static-page-server-3000:2] online
+2023-03-10T06:31:07: PM2 log: Stopping app:static-page-server-3001 id:0
+2023-03-10T06:31:07: PM2 log: Stopping app:index id:1
+2023-03-10T06:31:07: PM2 log: App [static-page-server-3001:0] exited with code [0] via signal [SIGINT]
+2023-03-10T06:31:07: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2023-03-10T06:31:07: PM2 log: pid=2751 msg=process killed
+2023-03-10T06:31:07: PM2 log: App [static-page-server-3001:0] starting in -fork mode-
+2023-03-10T06:31:07: PM2 log: App [static-page-server-3001:0] online
+2023-03-10T06:31:07: PM2 log: pid=3593 msg=process killed
+2023-03-10T06:31:07: PM2 log: App [index:1] starting in -fork mode-
+2023-03-10T06:31:07: PM2 log: Stopping app:static-page-server-3000 id:2
+2023-03-10T06:31:07: PM2 log: App [index:1] online
+2023-03-10T06:31:07: PM2 log: App [static-page-server-3000:2] exited with code [0] via signal [SIGINT]
+2023-03-10T06:31:07: PM2 log: pid=4206 msg=process killed
+2023-03-10T06:31:07: PM2 log: App [static-page-server-3000:2] starting in -fork mode-
+2023-03-10T06:31:07: PM2 log: App [static-page-server-3000:2] online
+2023-03-10T06:37:23: PM2 log: Stopping app:static-page-server-3001 id:0
+2023-03-10T06:37:23: PM2 log: Stopping app:index id:1
+2023-03-10T06:37:23: PM2 log: App [static-page-server-3001:0] exited with code [0] via signal [SIGINT]
+2023-03-10T06:37:23: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2023-03-10T06:37:23: PM2 log: pid=4710 msg=process killed
+2023-03-10T06:37:23: PM2 log: App [static-page-server-3001:0] starting in -fork mode-
+2023-03-10T06:37:23: PM2 log: App [static-page-server-3001:0] online
+2023-03-10T06:37:23: PM2 error: Error: spawn node ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:476:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-03-10T06:37:23: PM2 log: pid=4717 msg=process killed
+2023-03-10T06:37:23: PM2 log: App [index:1] starting in -fork mode-
+2023-03-10T06:37:23: PM2 log: Stopping app:static-page-server-3000 id:2
+2023-03-10T06:37:23: PM2 log: App [index:1] online
+2023-03-10T06:37:23: PM2 log: App [static-page-server-3000:2] exited with code [0] via signal [SIGINT]
+2023-03-10T06:37:23: PM2 log: pid=4731 msg=process killed
+2023-03-10T06:37:23: PM2 log: App [static-page-server-3000:2] starting in -fork mode-
+2023-03-10T06:37:23: PM2 log: App [static-page-server-3000:2] online
+2023-03-10T06:37:23: PM2 error: Error caught while calling pidusage
+2023-03-10T06:37:23: PM2 error: TypeError: One of the pids provided is invalid
+2023-03-10T06:37:28: PM2 error: Error caught while calling pidusage
+2023-03-10T06:37:28: PM2 error: TypeError: One of the pids provided is invalid
+2023-03-10T06:37:58: PM2 error: Error caught while calling pidusage
+2023-03-10T06:37:58: PM2 error: TypeError: One of the pids provided is invalid
+2023-03-10T06:38:22: PM2 error: Error caught while calling pidusage
+2023-03-10T06:38:22: PM2 error: TypeError: One of the pids provided is invalid
+2023-03-10T06:38:22: PM2 log: Stopping app:static-page-server-3001 id:0
+2023-03-10T06:38:22: PM2 error: app=static-page-server-3001 id=0 does not have a pid
+2023-03-10T06:38:22: PM2 log: App [static-page-server-3001:0] starting in -fork mode-
+2023-03-10T06:38:22: PM2 log: Stopping app:index id:1
+2023-03-10T06:38:22: PM2 log: App [static-page-server-3001:0] online
+2023-03-10T06:38:22: PM2 log: Stopping app:static-page-server-3000 id:2
+2023-03-10T06:38:22: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2023-03-10T06:38:22: PM2 log: App [static-page-server-3000:2] exited with code [0] via signal [SIGINT]
+2023-03-10T06:38:22: PM2 log: pid=5160 msg=process killed
+2023-03-10T06:38:22: PM2 log: App [index:1] starting in -fork mode-
+2023-03-10T06:38:22: PM2 log: App [index:1] online
+2023-03-10T06:38:22: PM2 log: pid=5175 msg=process killed
+2023-03-10T06:38:22: PM2 log: App [static-page-server-3000:2] starting in -fork mode-
+2023-03-10T06:38:22: PM2 log: App [static-page-server-3000:2] online
+2023-03-10T06:41:29: PM2 log: Stopping app:index id:1
+2023-03-10T06:41:29: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2023-03-10T06:41:29: PM2 log: pid=5395 msg=process killed
+2023-03-10T06:41:29: PM2 log: App [index:1] starting in -fork mode-
+2023-03-10T06:41:29: PM2 log: App [index:1] online
+2023-03-10T06:44:47: PM2 log: Stopping app:static-page-server-3001 id:0
+2023-03-10T06:44:47: PM2 log: Stopping app:index id:1
+2023-03-10T06:44:47: PM2 log: App [static-page-server-3001:0] exited with code [0] via signal [SIGINT]
+2023-03-10T06:44:47: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2023-03-10T06:44:48: PM2 log: pid=5383 msg=process killed
+2023-03-10T06:44:48: PM2 log: App [static-page-server-3001:0] starting in -fork mode-
+2023-03-10T06:44:48: PM2 log: App [static-page-server-3001:0] online
+2023-03-10T06:44:48: PM2 log: pid=5581 msg=process killed
+2023-03-10T06:44:48: PM2 log: App [index:1] starting in -fork mode-
+2023-03-10T06:44:48: PM2 log: Stopping app:static-page-server-3000 id:2
+2023-03-10T06:44:48: PM2 log: App [index:1] online
+2023-03-10T06:44:48: PM2 log: App [static-page-server-3000:2] exited with code [0] via signal [SIGINT]
+2023-03-10T06:44:48: PM2 log: pid=5402 msg=process killed
+2023-03-10T06:44:48: PM2 log: App [static-page-server-3000:2] starting in -fork mode-
+2023-03-10T06:44:48: PM2 log: App [static-page-server-3000:2] online
+2023-03-10T06:50:58: PM2 log: Stopping app:index id:1
+2023-03-10T06:50:58: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2023-03-10T06:50:58: PM2 log: pid=5763 msg=process killed
+2023-03-10T06:50:58: PM2 log: App [index:1] starting in -fork mode-
+2023-03-10T06:50:58: PM2 log: App [index:1] online
+2023-03-10T06:52:22: PM2 log: Stopping app:static-page-server-3001 id:0
+2023-03-10T06:52:22: PM2 log: Stopping app:index id:1
+2023-03-10T06:52:22: PM2 log: Stopping app:static-page-server-3000 id:2
+2023-03-10T06:52:22: PM2 log: App [static-page-server-3001:0] exited with code [0] via signal [SIGINT]
+2023-03-10T06:52:22: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2023-03-10T06:52:22: PM2 log: App [static-page-server-3000:2] exited with code [0] via signal [SIGINT]
+2023-03-10T06:52:22: PM2 log: pid=5756 msg=process killed
+2023-03-10T06:52:22: PM2 log: pid=6056 msg=process killed
+2023-03-10T06:52:22: PM2 log: pid=5777 msg=process killed
+2023-03-10T06:52:53: PM2 log: App [static-page-server-3000:0] starting in -fork mode-
+2023-03-10T06:52:53: PM2 log: App [static-page-server-3000:0] online
+2023-03-10T06:53:09: PM2 log: App [index:1] starting in -fork mode-
+2023-03-10T06:53:09: PM2 log: App [index:1] online
+2023-03-10T06:53:25: PM2 log: App [static-page-server-3001:2] starting in -fork mode-
+2023-03-10T06:53:25: PM2 log: App [static-page-server-3001:2] online
+2023-03-10T07:06:03: PM2 log: Stopping app:static-page-server-3000 id:0
+2023-03-10T07:06:03: PM2 log: Stopping app:index id:1
+2023-03-10T07:06:03: PM2 log: Stopping app:static-page-server-3001 id:2
+2023-03-10T07:06:03: PM2 log: App [static-page-server-3000:0] exited with code [0] via signal [SIGINT]
+2023-03-10T07:06:03: PM2 log: App [static-page-server-3001:2] exited with code [0] via signal [SIGINT]
+2023-03-10T07:06:03: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2023-03-10T07:06:03: PM2 log: pid=6179 msg=process killed
+2023-03-10T07:06:03: PM2 log: pid=6227 msg=process killed
+2023-03-10T07:06:03: PM2 log: pid=6300 msg=process killed
+2023-03-10T07:06:11: PM2 log: App [static-page-server-3001:0] starting in -fork mode-
+2023-03-10T07:06:11: PM2 log: App [static-page-server-3001:0] online
+2023-03-10T07:06:23: PM2 log: App [index:1] starting in -fork mode-
+2023-03-10T07:06:23: PM2 log: App [index:1] online
+2023-03-10T07:06:34: PM2 log: App [static-page-server-3000:2] starting in -fork mode-
+2023-03-10T07:06:34: PM2 log: App [static-page-server-3000:2] online
+2023-03-10T07:34:01: PM2 log: Stopping app:static-page-server-3001 id:0
+2023-03-10T07:34:01: PM2 log: Stopping app:index id:1
+2023-03-10T07:34:01: PM2 log: App [static-page-server-3001:0] exited with code [0] via signal [SIGINT]
+2023-03-10T07:34:01: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2023-03-10T07:34:02: PM2 log: pid=6692 msg=process killed
+2023-03-10T07:34:02: PM2 log: Stopping app:static-page-server-3000 id:2
+2023-03-10T07:34:02: PM2 log: pid=6755 msg=process killed
+2023-03-10T07:34:02: PM2 log: App [static-page-server-3000:2] exited with code [0] via signal [SIGINT]
+2023-03-10T07:34:02: PM2 log: pid=6815 msg=process killed

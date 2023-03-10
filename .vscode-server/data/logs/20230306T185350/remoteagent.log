@@ -1,0 +1,36 @@
+2023-03-06 18:53:51.006 [info] 
+
+
+
+
+2023-03-06 18:53:51.006 [info] Extension host agent started.
+2023-03-06 18:53:51.069 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2023-03-06 18:53:51.093 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2023-03-06 18:53:52.046 [info] [127.0.0.1][d988997a][ManagementConnection] New connection established.
+2023-03-06 18:53:52.601 [info] [127.0.0.1][1bb74aac][ExtensionHostConnection] New connection established.
+2023-03-06 18:53:52.608 [info] [127.0.0.1][1bb74aac][ExtensionHostConnection] <39434> Launched Extension Host Process.
+2023-03-06 18:53:56.986 [warning] No ptyHost heartbeat after 6 seconds
+2023-03-06 18:54:12.222 [info] [127.0.0.1][d988997a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-06 18:54:12.245 [info] [127.0.0.1][1bb74aac][ExtensionHostConnection] <39434> Extension Host Process exited with code: 0, signal: null.
+2023-03-06 18:54:12.246 [info] Cancelling previous shutdown timeout
+2023-03-06 18:54:12.246 [info] Last EH closed, waiting before shutting down
+2023-03-06 18:54:18.067 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-03-06 18:54:18.068 [info] Cancelling previous shutdown timeout
+2023-03-06 18:54:19.215 [info] [127.0.0.1][1ca92d4f][ManagementConnection] New connection established.
+2023-03-06 18:54:19.803 [info] [127.0.0.1][57377a20][ExtensionHostConnection] New connection established.
+2023-03-06 18:54:19.814 [info] [127.0.0.1][57377a20][ExtensionHostConnection] <39575> Launched Extension Host Process.
+2023-03-06 18:59:18.068 [info] New EH opened, aborting shutdown
+2023-03-06 19:18:20.453 [error] Error: connect ECONNREFUSED 127.0.0.1:3001
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-03-06 19:30:21.379 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-03-06 19:30:22.020 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-03-06 19:30:57.024 [info] [127.0.0.1][1ca92d4f][ManagementConnection] The client has reconnected.
+2023-03-06 19:31:25.178 [info] [127.0.0.1][57377a20][ExtensionHostConnection] The client has reconnected.
+2023-03-06 19:46:47.947 [info] [127.0.0.1][57377a20][ExtensionHostConnection] The client has reconnected.
+2023-03-06 20:41:07.446 [info] [127.0.0.1][1ca92d4f][ManagementConnection] The client has reconnected.
+2023-03-06 20:41:08.185 [info] [127.0.0.1][57377a20][ExtensionHostConnection] The client has reconnected.
+2023-03-06 23:56:37.290 [info] [127.0.0.1][57377a20][ExtensionHostConnection] <39575> Extension Host Process exited with code: 0, signal: null.
+2023-03-06 23:56:37.290 [info] Last EH closed, waiting before shutting down
+2023-03-07 00:01:37.291 [info] Last EH closed, shutting down

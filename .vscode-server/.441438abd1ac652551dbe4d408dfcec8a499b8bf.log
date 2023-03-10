@@ -1,0 +1,259 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:37607 (IPv4)
+Extension host agent listening on 37607
+
+[04:36:11] 
+
+
+
+
+[04:36:11] Extension host agent started.
+[04:36:12] [127.0.0.1][5c6a7176][ManagementConnection] New connection established.
+[04:36:13] [127.0.0.1][83deb0c0][ExtensionHostConnection] New connection established.
+[04:36:13] [127.0.0.1][83deb0c0][ExtensionHostConnection] <51749> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[04:36:46] [127.0.0.1][5a06adcd][ManagementConnection] New connection established.
+[04:36:47] [127.0.0.1][dc2c2888][ExtensionHostConnection] New connection established.
+[04:36:47] [127.0.0.1][dc2c2888][ExtensionHostConnection] <51779> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[04:36:59] [127.0.0.1][5a06adcd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:36:59] [127.0.0.1][dc2c2888][ExtensionHostConnection] <51779> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[04:36:59] Cancelling previous shutdown timeout
+[04:37:01] [127.0.0.1][cc9d3dc4][ManagementConnection] New connection established.
+[04:37:02] [127.0.0.1][0894541d][ExtensionHostConnection] New connection established.
+[04:37:02] [127.0.0.1][0894541d][ExtensionHostConnection] <51809> Launched Extension Host Process.
+[04:37:08] No ptyHost heartbeat after 6 seconds
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:3000
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[04:40:39] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3000
+}
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:3000
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[04:40:39] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3000
+}
+[04:45:35] [127.0.0.1][de420952][ManagementConnection] New connection established.
+[04:45:36] [127.0.0.1][25e2fe15][ExtensionHostConnection] New connection established.
+[04:45:36] [127.0.0.1][25e2fe15][ExtensionHostConnection] <52831> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[04:45:55] [127.0.0.1][5c6a7176][ManagementConnection] The client has reconnected.
+[04:46:08] [127.0.0.1][83deb0c0][ExtensionHostConnection] The client has reconnected.
+[04:46:13] [127.0.0.1][de420952][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:46:13] [127.0.0.1][25e2fe15][ExtensionHostConnection] <52831> Extension Host Process exited with code: 0, signal: null.
+[04:46:15] [127.0.0.1][9405e5cf][ManagementConnection] New connection established.
+[04:46:16] [127.0.0.1][13f9eee2][ExtensionHostConnection] New connection established.
+[04:46:16] [127.0.0.1][13f9eee2][ExtensionHostConnection] <52972> Launched Extension Host Process.
+[04:46:20] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ubuntu)
+[IPC Library: Pty Host]  WARN Persistent process "10": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "10"
+[IPC Library: Pty Host]  INFO Persistent process "10": Replaying 375 chars and 1 size events
+[04:50:35] [127.0.0.1][0894541d][ExtensionHostConnection] <51809> Extension Host Process exited with code: 0, signal: null.
+[05:41:41] [127.0.0.1][5c6a7176][ManagementConnection] The client has reconnected.
+[05:41:42] [127.0.0.1][83deb0c0][ExtensionHostConnection] The client has reconnected.
+[05:41:46] [127.0.0.1][9405e5cf][ManagementConnection] The client has reconnected.
+[05:41:47] [127.0.0.1][13f9eee2][ExtensionHostConnection] The client has reconnected.
+[06:19:50] [127.0.0.1][9405e5cf][ManagementConnection] The client has reconnected.
+[06:19:50] [127.0.0.1][13f9eee2][ExtensionHostConnection] The client has reconnected.
+[06:24:50] [127.0.0.1][83deb0c0][ExtensionHostConnection] <51749> Extension Host Process exited with code: 0, signal: null.
+[09:27:01] [127.0.0.1][13f9eee2][ExtensionHostConnection] <52972> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[09:27:01] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[09:32:01] Last EH closed, shutting down

@@ -1,0 +1,38 @@
+2023-03-09 09:38:25.917 [info] 
+
+
+
+
+2023-03-09 09:38:25.957 [info] Extension host agent started.
+2023-03-09 09:38:27.261 [info] [127.0.0.1][149345b4][ManagementConnection] New connection established.
+2023-03-09 09:38:28.263 [info] [127.0.0.1][b220e28e][ExtensionHostConnection] New connection established.
+2023-03-09 09:38:28.271 [info] [127.0.0.1][b220e28e][ExtensionHostConnection] <69870> Launched Extension Host Process.
+2023-03-09 09:43:25.958 [info] New EH opened, aborting shutdown
+2023-03-09 10:31:40.939 [info] [127.0.0.1][149345b4][ManagementConnection] The client has reconnected.
+2023-03-09 10:32:09.199 [info] [127.0.0.1][b220e28e][ExtensionHostConnection] The client has reconnected.
+2023-03-09 10:42:16.521 [info] [127.0.0.1][b220e28e][ExtensionHostConnection] The client has reconnected.
+2023-03-09 10:42:21.726 [info] [127.0.0.1][149345b4][ManagementConnection] The client has reconnected.
+2023-03-09 10:43:30.343 [info] [127.0.0.1][149345b4][ManagementConnection] The client has reconnected.
+2023-03-09 10:43:39.325 [info] [127.0.0.1][b220e28e][ExtensionHostConnection] The client has reconnected.
+2023-03-09 10:48:18.193 [info] [127.0.0.1][b220e28e][ExtensionHostConnection] The client has reconnected.
+2023-03-09 10:48:20.434 [info] [127.0.0.1][149345b4][ManagementConnection] The client has reconnected.
+2023-03-09 10:58:23.069 [info] [127.0.0.1][de966f82][ManagementConnection] New connection established.
+2023-03-09 10:58:23.668 [info] [127.0.0.1][06b21d0f][ExtensionHostConnection] New connection established.
+2023-03-09 10:58:23.682 [info] [127.0.0.1][06b21d0f][ExtensionHostConnection] <77636> Launched Extension Host Process.
+2023-03-09 10:58:29.436 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ubuntu)
+2023-03-09 11:03:23.365 [info] [127.0.0.1][b220e28e][ExtensionHostConnection] <69870> Extension Host Process exited with code: 0, signal: null.
+2023-03-09 11:34:24.091 [info] [127.0.0.1][de966f82][ManagementConnection] The client has reconnected.
+2023-03-09 11:34:24.891 [info] [127.0.0.1][06b21d0f][ExtensionHostConnection] The client has reconnected.
+2023-03-09 13:02:34.665 [info] [127.0.0.1][06b21d0f][ExtensionHostConnection] The client has reconnected.
+2023-03-09 13:06:43.301 [info] [127.0.0.1][de966f82][ManagementConnection] The client has reconnected.
+2023-03-09 13:06:43.979 [info] [127.0.0.1][06b21d0f][ExtensionHostConnection] The client has reconnected.
+2023-03-09 13:11:27.714 [info] [127.0.0.1][06b21d0f][ExtensionHostConnection] The client has reconnected.
+2023-03-09 13:14:29.180 [info] [127.0.0.1][de966f82][ManagementConnection] The client has reconnected.
+2023-03-09 13:14:30.342 [info] [127.0.0.1][06b21d0f][ExtensionHostConnection] The client has reconnected.
+2023-03-09 13:29:37.183 [info] [127.0.0.1][06b21d0f][ExtensionHostConnection] The client has reconnected.
+2023-03-09 14:38:56.794 [info] [127.0.0.1][de966f82][ManagementConnection] The client has reconnected.
+2023-03-09 14:39:23.194 [info] [127.0.0.1][06b21d0f][ExtensionHostConnection] The client has reconnected.
+2023-03-09 15:27:53.756 [warning] No ptyHost heartbeat after 6 seconds
+2023-03-09 18:58:29.637 [info] [127.0.0.1][06b21d0f][ExtensionHostConnection] <77636> Extension Host Process exited with code: 0, signal: null.
+2023-03-09 18:58:29.641 [info] Last EH closed, waiting before shutting down
+2023-03-09 19:03:29.642 [info] Last EH closed, shutting down

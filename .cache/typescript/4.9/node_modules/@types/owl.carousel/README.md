@@ -1,0 +1,16 @@
+# Installation
+> `npm install --save @types/owl.carousel`
+
+# Summary
+This package contains type definitions for owl.carousel (https://github.com/OwlCarousel2/OwlCarousel2).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/owl.carousel.
+
+### Additional Details
+ * Last updated: Thu, 08 Jul 2021 20:19:13 GMT
+ * Dependencies: [@types/jquery](https://npmjs.com/package/@types/jquery)
+ * Global values: none
+
+# Credits
+These definitions were written by [Ismael Gorissen](https://github.com/igorissen), and [Kenneth Ceyer](https://github.com/KennethanCeyer).
